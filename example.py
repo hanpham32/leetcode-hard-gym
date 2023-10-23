@@ -1,6 +1,8 @@
 from leetcode_env.environment import LeetCodeEnv
 from leetcode_env.types import LeetCodeSubmission, ProgrammingLanguage
 
+slug=""
+
 code = """
 class Solution:
     def twoSum(self, nums, target):
@@ -13,7 +15,7 @@ class Solution:
 
 sub = LeetCodeSubmission(code=code,
                          lang=ProgrammingLanguage.PYTHON3,
-                         question_slug='two-sum')
+                         question_slug=slug)
 
 env = LeetCodeEnv()
 
