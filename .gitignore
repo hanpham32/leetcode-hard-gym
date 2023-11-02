@@ -1,4 +1,4 @@
-env/
+venv/
 .env
 __pycache__/
 SubmissionTest.ipynb
@@ -7,3 +7,4 @@ data/
 __init__.py
 .pytest_cache/
 build/
+/problem-solutions/example.py

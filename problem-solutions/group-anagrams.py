@@ -1,11 +1,11 @@
 from leetcode_env.environment import LeetCodeEnv
 from leetcode_env.types import LeetCodeSubmission, ProgrammingLanguage
 
-slug=""
+slug="group-anagrams"
 
 code = """
 class Solution:
-    def twoSum(self, nums, target):
+    def groupAnagrams(self, strs: List[str], target):
         l = len(nums)
         for i in range(l - 1):
             for j in range(i + 1, l):
